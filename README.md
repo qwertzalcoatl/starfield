@@ -1,4 +1,4 @@
-# Starfield: Game Dev Experiment
+# Game Dev Experiment
 
 Quick notes on my 4-hour AI game dev experiment:
 
