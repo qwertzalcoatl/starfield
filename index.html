@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Game with AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="hud">
+        Player Torpedoes: <span id="playerTorpedoCount">5</span>
+        <div class="shieldBar"><div id="playerShieldBarFill" class="shieldBarFill"></div></div>
+        <div class="shieldBar"><div id="aiShieldBarFill" class="shieldBarFill"></div></div>
+        AI Torpedoes: <span id="aiTorpedoCount">5</span>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <div id="instructions" class="instructions">
+        <p>Use Arrow keys to move, Shift to fire lasers,
+        Space to fire torpedoes</p>
+    </div>
+    <div id="gameOverScreen" class="overlay" style="display:none;"></div>
+    
+    <script src="ship.js"></script>
+    <script src="ai-player.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
